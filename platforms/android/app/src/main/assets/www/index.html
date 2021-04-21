@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+        <header>
+            <div class="f1">
+                <a> <img class="clearfix opacity" src="img/fia.png" alt="Fia" style="border-right: 1px solid rgb(80, 79, 79); margin-left: 50px; margin-right: 15px; padding-right: 15px;" width="65" height="30"> </a>
+                <a href="https://www.formula1.com/" target="_blank" class="f1"> F1&#8482 </a> 
+                <a href="https://www.formula1.com/" target="_blank" class="f1"> F2&#8482 </a>
+                <a href="https://www.formula1.com/" target="_blank" class="f1"> F3&#8482 </a>
+                <div class="right">
+                    <a href="signup.html" class="button_login"> <img src="img/user.png" width="12" height="12"> LOGIN </a>
+                    <a href="login.html" class="button_subscribe"> ISCRIVITI </a>    
+                </div>
+            </div>
+            <div class="navbar">
+                <a> <img src="img/logo.png" width="120" height="65" style="margin-top: -16px;"> </a>
+                <div class="dropdown">
+                    <button class="dropbtn"> Piloti <sub>˅</sub> </button>
+                    <div class="dropdown-content" style="margin-left: -190px;">
+                        <div class="column_piloti">
+                            <a href="Hamilton.html" class="border merc"> Lewis Hamilton </a>
+                            <a href="Bottas.html" class="border merc"> Valterri Bottas</a> <br>
+                            <a href="Alonso.html" class="border alpine"> Fernando Alonso </a>
+                            <a href="Ocon.html" class="border alpine"> Esteban Ocon </a> <br>
+                        </div>
+                        <div class="column_piloti">
+                            <a href="Leclerc.html" class="border ferrari"> Charles Leclerc </a>
+                            <a href="Sainz.html" class="border ferrari"> Carlos Sainz </a> <br>
+                            <a href="Mazepin.html" class="border haas"> Nikita Mazepin </a>
+                            <a href="Schumacher.html" class="border haas"> Mick Schumacher </a> <br>
+                        </div>
+                        <div class="column_piloti">
+                            <a href="Verstappen.html" class="border rb"> Max Verstappen </a>
+                            <a href="Perez.html" class="border rb"> Sergio Perez </a> <br>
+                            <a href="Gasly.html" class="border alpha"> Pierre Gasly </a>
+                            <a href="Tsunoda.html" class="border alpha"> Yuki Tsunoda </a> <br>
+                        </div>
+                        <div class="column_piloti">
+                            <a href="Stroll.html" class="border am"> Lance Stroll </a>
+                            <a href="Perez.html" class="border am"> Sebastian Vettel </a> <br>
+                            <a href="Raikkonen.html" class="border alfa"> Kimi Raikkonen </a>
+                            <a href="Giovinazzi.html" class="border alfa"> Antonio Giovinazzi </a> <br>
+                        </div>
+                        <div class="column_piloti">
+                            <a href="Stroll.html" class="border mclaren"> Daniel Ricciardo </a>
+                            <a href="Perez.html" class="border mclaren"> Lando Norris </a> <br>
+                            <a href="Russel.html" class="border williams"> George Russell </a>
+                            <a href="Latifi.html" class="border williams"> Nicolas Latifi </a> <br>
+                        </div>
+                    </div>
+                </div> 
+                <div class="dropdown">
+                    <button class="dropbtn"> Costruttori <sub>˅</sub> </button>
+                    <div class="dropdown-content" style="margin-left: -148px;">
+                        <div class="dropdown-content">
+                            <div class="column_teams">
+                                <a href="AlphaTauri.html" class="border alpha"> <img src="img/alpha.png" width="100%" height="100%" style="border-left: 5px solid rgb(43, 69, 98); padding-left: 20px;"></a>
+                                <a href="Alfa Romeo.html" class="border alfa"> <img src="img/Alfa.png" width="100%" height="100%" style="border-left: 5px solid rgb(144, 0, 0); padding-left: 20px;"></a>     
+                            </div>
+                            <div class="column_teams">
+                                <a href="Red Bull.html" class="border rb"> <img src="img/redbull.png" width="100%" height="100%" style="border-left: 5px solid rgb(6, 0, 239); padding-left: 20px;"></a>                           
+                                <a href="Ferrari.html" class="border ferrari"> <img src="img/ferrari.png" width="100%" height="100%" style="border-left: 5px solid rgb(220, 0, 0); padding-left: 20px;"></a>                           
+                            </div>
+                            <div class="column_teams">              
+                                <a href="Alpine.html" class="border alpine"> <img src="img/alpin.png" width="100%" height="100%" style="border-left: 5px solid rgb(0, 144, 225); padding-left: 20px;"></a>
+                                <a href="McLaren.html" class="border mclaren"> <img src="img/mclaren.png" width="100%" height="100%" style="border-left: 5px solid rgb(255, 152, 0); padding-left: 20px;"></a>
+                            </div>
+                            <div class="column_teams">
+                                <a href="Williams.html" class="border williams"> <img src="img/williams.png" width="100%" height="100%" style="border-left: 5px solid rgb(0, 90, 255); padding-left: 20px;"></a>
+                                <a href="Mercedes.html" class="border merc"> <img src="img/merc.png" width="100%" height="100%"  style="border-left: 5px solid rgb(0, 210, 190); padding-left: 20px;"></a>                           
+                            </div>
+                            <div class="column_teams">
+                                <a href="Haas.html" class="border haas"> <img src="img/haas.png" width="100%" height="100%" style="border-left: 5px solid white; padding-left: 20px;"></a> 
+                                <a href="Aston Martin.html" class="border am"> <img src="img/aston.png" width="100%" height="100%"  style="border-left: 5px solid rgb(0, 111, 98); padding-left: 20px;"></a> <br>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"> Classifica <sub>˅</sub> </button>
+                    <div class="dropdown-content" style="margin-left: -495px;">
+                        <div class="column_championship">
+                            <a href="Campionato piloti.html" class="border"> Campionato Piloti <br> <br> <img src="img/Piloti.png" width="200px" height="200px"></a>
+                        </div>
+                        <div class="column_championship">
+                            <a href="Campionato costruttori.html" class="border"> Campionato Costruttori <br> <br> <img src="img/Costruttori.png" widht="200px" height="200px"> </a> <br>
+                        </div>
+                    </div> 
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"> Calendario <sub>˅</sub> </button>
+                    <div class="dropdown-content" style="margin-left: -662px;">
+                        <a> WORK IN PROGRESS! </a>
+                    </div>
+                </div>
+            </div> 
+        </header>
+        
+
+       
+        <div class="row">
+            <div class="column c_left">
+                <h1> Ecco svelate le vetture del 2022!</a> </h1>
+                <img src="img/f12022.jpg" width="100%" height="100%" style="margin-left: auto; margin-right:auto;">
+                <p> Ora è ufficiale: il nuovo regolamento che avrebbe rivoluzionato la Formula 1 a partire dal 2021 subirà uno slittamento di 12 mesi ed entrerà in vigore nel 2022. Quindi è stata questa la decisione comunicata oggi dalla FIA, a valle di un accordo con la Formula 1 e tutti i 10 Team. </p>
+            </div>
+            <div class="column c_right">
+                <div class="column">
+                    <img src="img/leclerc.jpg" width="100%" height="100%">
+                    <div class="bordino news"> <p style="color: red; font-weight: bold;"> NEWS </p> <p> ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p> </DIV>
+                </div>
+                <div class="column">
+                    <img src="img/articolo 2.jpg" width="100%" height="100%">
+                    <div class="bordino breaking"> <p style="color: red; font-weight: bold;"> :: BREAKING NEWS :: </p> <p> ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p> </DIV>
+                </div>
+                <div class="column">
+                    <img src="img/articolo 3.png" width="100%" height="100%">
+                    <div class="bordino news"> <p style="color: red; font-weight: bold;"> NEWS </p> <p> ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p> </DIV>
+                </div>
+                <div class="column">
+                    <img src="img/leclerc.jpg" width="100%" height="100%">
+                    <div class="bordino news"> <p style="color: red; font-weight: bold;"> NEWS </p> <p> ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p> </DIV>
+                </div>
+                <div class="column">
+                    <img src="img/articolo 2.jpg" width="100%" height="100%">
+                    <div class="bordino news"> <p style="color: red; font-weight: bold;"> NEWS </p> <p> ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p> </DIV>
+                </div>
+                <div class="column">
+                    <img src="img/articolo 3.png" width="100%" height="100%">
+                    <div class="bordino news"> <p style="color: red; font-weight: bold;"> NEWS </p> <p>ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p> </DIV>
+                </div>
+                <div class="column">
+                    <img src="img/leclerc.jpg" width="100%" height="100%">
+                    <div class="bordino breaking"> <p style="color: red; font-weight: bold;"> :: BREAKING NEWS :: </p> <p> ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p> </DIV>
+                </div>
+                <div class="column">
+                    <img src="img/articolo 2.jpg" width="100%" height="100%">
+                    <div class="bordino news"> <p style="color: red; font-weight: bold;"> NEWS </p> <p> ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p> </DIV>
+                </div>
+                <div class="column">
+                    <img src="img/articolo 3.png" width="100%" height="100%">
+                    <div class="bordino news"> <p style="color: red; font-weight: bold;"> NEWS </p> <p> ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p> </DIV>
+                </div>
+                <div class="column">
+                    <img src="img/leclerc.jpg" width="100%" height="100%">
+                    <div class="bordino news"> <p style="color: red; font-weight: bold;"> NEWS </p> <p> ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p> </DIV>
+                </div>
+                <div class="column">
+                    <img src="img/articolo 2.jpg" width="100%" height="100%">
+                    <div class="bordino news"> <p style="color: red; font-weight: bold;"> NEWS </p> <p> ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p> </DIV>
+                </div>
+                <div class="column">
+                    <img src="img/articolo 3.png" width="100%" height="100%">
+                    <div class="bordino news"> <p style="color: red; font-weight: bold;"> NEWS </p> <p> ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. </p> </DIV>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <footer>
+                Sito Web a cura di Gabriele Vitale
+            </footer>
+        </div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
